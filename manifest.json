@@ -1,0 +1,18 @@
+{
+    "name":"System Diagnostics Tool",
+    "version":"1.0",
+    "description":"chrome extension to get system info via chromium api",
+    "permissions":["activeTab","tabs","system.cpu"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "icons":
+        {
+            "16":"/images/icon-192x192.png",
+            "32":"/images/icon-256x256.png",
+            "48":"/images/icon-384x384.png",
+            "128":"/images/icon-512x512.png"
+        },
+    "manifest_version":2
+}
