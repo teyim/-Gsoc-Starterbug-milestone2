@@ -7,6 +7,9 @@
         "scripts": ["background.js"],
         "persistent": false
       },
+      "externally_connectable": {
+        "matches": ["https://teyim.github.io/Gsoc-Starterbug-milestone1/*"]
+      },
     "icons":
         {
             "16":"/images/icon-192x192.png",

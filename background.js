@@ -15,3 +15,13 @@ chrome.runtime.onInstalled.addListener(function() {
   }
 )
 
+
+   // Extension's background code
+chrome.runtime.onMessageExternal.addListener(
+  function(request, sender, sendResponse) {
+    if(request.greeting == "getInfo"){ // Check the URL with a custom function
+    sendResponse({systemInfo:systemData});
+    return true
+  }
+}
+);
