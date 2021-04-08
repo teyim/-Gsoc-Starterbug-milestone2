@@ -7,6 +7,9 @@
         "scripts": ["background.js"],
         "persistent": false
       },
+      "externally_connectable": {
+        "matches": ["http://127.0.0.1:5500/*"]
+      },
     "icons":
         {
             "16":"/images/icon-192x192.png",
