@@ -8,7 +8,7 @@
         "persistent": false
       },
       "externally_connectable": {
-        "matches": ["http://127.0.0.1:5500/*"]
+        "matches": ["https://teyim.github.io/Gsoc-Starterbug-milestone1/*"]
       },
     "icons":
         {
